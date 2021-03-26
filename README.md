@@ -114,6 +114,11 @@ sudo apt-get install espeak-ng
 
 ## The GUI
 ![GUI](./images/gui.png)
+- (Linux users) Install the following:
+```bash
+sudo apt install python3-tk
+sudo apt-get install -y python3-dev libasound2-dev
+```
 ```bash
 tts --start_gui
 ```
