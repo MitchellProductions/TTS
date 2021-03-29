@@ -114,6 +114,7 @@ sudo apt-get install espeak-ng
 
 ## The GUI
 ![GUI](./images/gui.png)
+The graphical user interface is a user-friendly alternative to the command line if you want to synthesize speech using released models, and is in the form of a full-fledged text editor which lets you hear what you input right away by clicking the generate button, or synthesize that speech into your chosen directory by clicking the export audio button.
 - (Linux users) Install the following:
 ```bash
 sudo apt install python3-tk
@@ -126,7 +127,7 @@ tts --start_gui
 
 - NOTE: It will take a while, especially if you don't have a CUDA-compatible GPU. It's advised to pay attention to your CLI to see what's happening.
 - DEV NOTE: Changes to synthesize.py may require changes to gui.py.
-The graphical user interface is a user-friendly alternative to the command line if you want to synthesize speech using released models, and is in the form of a full-fledged text editor which lets you hear what you input right away by clicking the generate button, or run TTS into your chosen directory by clicking the export audio button.
+
 
 ## Directory Structure
 ```
