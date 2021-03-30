@@ -99,6 +99,7 @@ If you are only interested in [synthesizing speech](https://github.com/coqui-ai/
 ```bash
 pip install TTS
 ```
+- NOTE: This will install from the main repo which doesn't include the GUI at the moment, so you should follow the below instead.
 
 If you plan to code or train models, clone 🐸TTS and install it locally.
 
